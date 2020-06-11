@@ -9,6 +9,11 @@
             "email": "15710074375@163.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "SystemGreen\\": "src"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
