@@ -1,0 +1,14 @@
+{
+    "name": "zzy0708/systemgreen",
+    "description": "阿里云内容安全",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangzy",
+            "email": "15710074375@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
