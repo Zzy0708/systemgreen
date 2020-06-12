@@ -55,7 +55,12 @@ class AliyunGreen
 
     /**
      * 提交语音检测任务
-     * @param $content
+     * @param $url
+     * @param string[] $scenes
+     * @param null $seed
+     * @param null $callback
+     * @param bool $live
+     * @param bool $offline
      * @return \AlibabaCloud\Client\Result\Result|array
      */
     public function voiceAsyncscan($url, $scenes = array("antispam"),$seed = null, $callback= null,$live=false , $offline =false) {
