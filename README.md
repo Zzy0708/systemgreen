@@ -13,6 +13,6 @@ use SystemGreen\CheckType\GreenVideo;
 use SystemGreen\CheckType\GreenFile;
  
 $obj = new GreenText('accessKeyId','accessKeySecret');
-$msg = $obj->textScan("傻B");
+$msg = $obj->textScan("傻*");
 print_r($msg);die;
 ```
