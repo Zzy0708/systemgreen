@@ -8,5 +8,4 @@
 
 ```
  use SystemGreen\CheckType\GreenText;
- 
-``
+```
