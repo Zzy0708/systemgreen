@@ -4,15 +4,16 @@
 
 ```composer  require zzy0708/systemgreen ```
 
-## 使用
+## 引用
 
 ```
-use SystemGreen\CheckType\GreenText;
-use SystemGreen\CheckType\GreenImg;
-use SystemGreen\CheckType\GreenVideo;
-use SystemGreen\CheckType\GreenFile;
- 
-$obj = new GreenText('accessKeyId','accessKeySecret');
+use SystemGreen\AliyunGreen;
+$obj = new AliyunGreen('accessKeyId','accessKeySecret');
+```
+
+## 文本内容检测
+
+```
 $msg = $obj->textScan("傻*");
-print_r($msg);die;
+var_dump($msg);
 ```

@@ -7,7 +7,8 @@
  */
 
 require_once __DIR__ . '../../vendor/autoload.php';
-use SystemGreen\CheckType\GreenText;
-$obj = new GreenText('*****************','*****************');
+use SystemGreen\AliyunGreen;
+$obj = new AliyunGreen('accessKeyId','accessKeySecret');
+
 $msg = $obj->textScan("傻B");
 var_dump($msg);
