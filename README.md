@@ -7,5 +7,12 @@
 ## 使用
 
 ```
- use SystemGreen\CheckType\GreenText;
+use SystemGreen\CheckType\GreenText;
+use SystemGreen\CheckType\GreenImg;
+use SystemGreen\CheckType\GreenVideo;
+use SystemGreen\CheckType\GreenFile;
+ 
+$obj = new GreenText('accessKeyId','accessKeySecret');
+$msg = $obj->textScan("傻B");
+print_r($msg);die;
 ```
