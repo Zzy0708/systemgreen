@@ -144,7 +144,7 @@ class AliyunGreen
         $tasks = $this->getTask($url, 'img');
         $body = array(
             'tasks' => $tasks,
-            'scenes' => array("porn", "terrorism"),
+            'scenes' => $scenes,
         );
         if(!empty($extras)) {
             $body['extras'] = $extras;
